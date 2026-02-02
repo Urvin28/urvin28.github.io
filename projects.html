@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Urvin</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="List of projects and short descriptions" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Urvin </h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html" class="btn-resume">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="projects-container">
+      <h2 id="web">Web & Interactive</h2>
+      <p>No public web projects listed here yet.</p>
+
+      <h2 id="ml">Machine Learning</h2>
+      <article class="card">
+        <div class="card-left">🤖</div>
+        <div>
+          <h4>Exam Score Prediction</h4>
+          <p>Regression experiments using XGBoost and CatBoost. Script and models are stored in the project folder.</p>
+          <p>Model: XGBoost Regressor (ensembled). Ensemble Test MAE: 7.0958, R2: 0.7341. <a href="projects/ml/exam_score/">Details & results</a></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-left">💳</div>
+        <div>
+          <h4>Credit Card Fraud Detection</h4>
+          <p>Binary classification using XGBoost with precision/recall analysis and threshold tuning.</p>
+          <p>Model: XGBoost (binary). ROC_AUC: 0.97<a href="projects/ml/credit_card/">Details & results</a></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-left">🩺</div>
+        <div>
+          <h4>Diabetes Classification</h4>
+          <p>Preprocessing and XGBoost classification with one-hot encoding and threshold tuning.</p>
+          <p>Model: XGBoost Classifier. ROC_AUC: 0.66 — best recall: 0.90 at threshold 0.36. <a href="projects/ml/diabetes/">Details & results</a></p>
+        </div>
+      </article>
+
+      <section id="contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:bchandpara28@gmail.com">bchandpara28@gmail.com</a></p>
+      </section>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">© Urvin Chandpara</div>
+  </footer>
+</body>
+</html>
